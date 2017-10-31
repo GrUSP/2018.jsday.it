@@ -2,8 +2,8 @@
 <div class="past-editions">
   <div class="container">
     <span class="past-editions__title">Browse past editions</span>
-    {% for year in (site.data.conference.since..site.data.conference.year) %}
-    {% if forloop.last == false %}
+    {% for year in (site.data.conference.since..site.data.conference.year) reversed %}
+    {% if forloop.first == false %}
     <a class="past-editions__link" href="http://{{ year }}.{{ site.data.conference.domain }}" title="{{ site.data.conference.name }} {{ year }}">{{ year }}</a>
     {% endif %}
     {% endfor %}
@@ -14,10 +14,18 @@
   <div class="container">
     <div class="header__content">
       <h1>
-        <a href="{{ site.baseurl }}" title="{{ site.data.conference.name }} {{ site.data.conference.year }}">
+        <a href="index.html" title="{{ site.data.conference.name }} {{ site.data.conference.year }}">
           <img src="images/logos/jsday.png" alt="{{ site.data.conference.name }} {{ site.data.conference.year }}" />
         </a>
       </h1>
+      {% if site.data.conference.show_cfp %}
+      <div class="header__extra">
+        <a class="header__call-for-papers" href="{{ site.data.conference.cfp_url }}" title="Call for papers">
+          Call for papers
+          <span class="header__call-for-papers--accent">is still open</span>
+        </a>
+      </div>
+      {% endif %}
       <div class="header__extra">
         <div class="header__dates">
           {{ site.data.conference.when }}
@@ -36,11 +44,6 @@
       <a class="menu__item" href="index.html" title="jsDay 2018">
         Home
       </a>
-      {% if site.data.conference.show_cfp %}
-      <a class="menu__item" href="{{ site.data.conference.cfp_url }}" title="Call For Papers">
-        Call For Papers
-      </a>
-      {% endif %}
       <a class="menu__item" href="venue.html" title="Venue">
         Venue
       </a>
