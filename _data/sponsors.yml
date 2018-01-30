@@ -1,0 +1,26 @@
+main:
+  list:
+
+diamond:
+  list:
+
+platinum:
+  list:
+    -
+      url: https://www.siteground.it/?utm_source=jsday
+      image: siteground.svg
+    -
+      url: http://www.ideato.it/?utm_source=jsday
+      image: ideato.svg
+    -
+      url: http://careers.workwave.com/?utm_source=jsday
+      image: workwave.svg
+
+gold:
+  list:
+
+silver:
+  list:
+
+bronze:
+  list:
