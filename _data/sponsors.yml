@@ -7,9 +7,6 @@ diamond:
 platinum:
   list:
     -
-      url: http://www.ideato.it/?utm_source=jsday
-      image: ideato.svg
-    -
       url: https://www.nearform.com/?utm_source=jsday
       image: nearform.svg
     -
@@ -21,6 +18,9 @@ platinum:
 
 gold:
   list:
+    -
+      url: http://www.ideato.it/?utm_source=jsday
+      image: ideato.svg
 
 silver:
   list:
