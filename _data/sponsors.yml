@@ -27,6 +27,9 @@ silver:
     -
       url: https://balsamiq.com/?utm_source=jsday
       image: balsamiq.svg
+    -
+      url: https://labs.madisoft.it/frontend-developer/?utm_source=jsday
+      image: madisoft.svg
 
 bronze:
   list:
