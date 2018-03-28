@@ -13,3 +13,14 @@ media_partners_helper: jsday.js
 domain: jsday.it
 show_cfp: false
 cfp_url: https://cfp.jsday.it/
+
+iubenda:
+  cookiePolicyId: 35664682
+  siteId: 1066517
+  lang: en
+  enableRemoteConsent: true
+  localConsentDomain: jsday.it
+  rebuildIframe: true
+
+google:
+  tag_manager_id: GTM-M4L8PSK
