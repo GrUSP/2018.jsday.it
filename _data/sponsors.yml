@@ -19,11 +19,17 @@ platinum:
 gold:
   list:
     -
+      url: http://www.docsity.com/it/
+      image: docsity.svg
+    -
       url: http://www.ideato.it/?utm_source=jsday
       image: ideato.svg
 
 silver:
   list:
+    -
+      url: https://info.subito.it/lavora-con-noi.htm
+      image: subito.svg
     -
       url: https://balsamiq.com/?utm_source=jsday
       image: balsamiq.svg
