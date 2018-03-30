@@ -28,16 +28,19 @@ gold:
 silver:
   list:
     -
-      url: https://info.subito.it/lavora-con-noi.htm
-      image: subito.svg
-    -
       url: https://balsamiq.com/?utm_source=jsday
       image: balsamiq.svg
+    -
+      url: http://www.extrategy.it/?utm_source=jsday
+      image: extrategy.svg
+    -
+      url: https://www.facile.it/?utm_source=jsday
+      image: facile.svg
     -
       url: https://labs.madisoft.it/frontend-developer/?utm_source=jsday
       image: madisoft.svg
     -
-      url: https://www.facile.it/?utm_source=jsday
-      image: facile.svg
+      url: https://info.subito.it/lavora-con-noi.htm
+      image: subito.svg
 bronze:
   list:
