@@ -50,3 +50,17 @@ list:
     first_name: Nara
     last_name: Kasbergen
     twitter: xiehan
+  -
+    id: luciano-mammino
+    description: "I am a software engineer born in 1987, the same year that “Super Mario Bros” was released in Europe, which, by chance is my favourite game! I started coding early at the age of 12, hacking away with my father's old i386 armed only with MS-DOS and the QBasic interpreter and I have been professionally a software developer for more than 10 years. I am currently a Solution Architect at Vectra AI in Dublin where I am working on automating the hunt for cyberattackers and speeding-up incident response. I love the fullstack web, Node.js and Serveless so I co-authored the book "Node.js design patterns" (http://amzn.to/1ZF279B), launched fstack.link (a semi-automated newsletter for Fullstack developers) and Serverlesslab.com (in-house serverless training)."
+    image: luciano-mammino.jpg
+    first_name: Luciano
+    last_name: Mammino
+    twitter: loige
+  -
+    id: nir-noy
+    description: "Nir Noy is a Full stack Consultant at Sela Group, with over a decade of professional experience in building Full Stack solutions. He has served as a Consultant, developer and Team Leader in companies of all shapes and sizes. In the course of his career he has built web applications using a wide array of client and server technologies, more recently focusing on Angular, React, NodeJS, ASP.NET MVC, ASP.NET Web API. Nir is also the lead of israel's FrontEnd.IL community and meetup group."
+    image: nir-noy.png
+    first_name: Nir
+    last_name: Noy
+    twitter: noynir
