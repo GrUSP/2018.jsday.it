@@ -1,0 +1,17 @@
+# place images in:
+# img/conf-name/speaker/file.jpg
+#   -
+#    id:
+#    description:
+#    image:
+#    first_name:
+#    last_name:
+#    twitter:
+list:
+  -
+    id: francesco-strazzullo
+    description: "Francesco Strazzullo is a Front-End Engineer, speaker and writer for codingjam.it. When not working for e-xtrategy or his personal github projects, Francesco likes to relax playing with his Playstation or cooking some strange ethnic dish for him and his friends."
+    image: 
+    first_name: Francesco
+    last_name: Strazzullo
+    twitter: TheStrazz86
