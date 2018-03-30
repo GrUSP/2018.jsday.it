@@ -38,11 +38,11 @@ list:
     twitter: TheStrazz86
   -
     id: irina-shestak
-    description: "tl;dr javascript, infrastructure, 🍜 🍜 🍜. The not so short: Irina is a Berlin via London via Vancouver software developer who is, oh hey, hello, really into node.js. When she is not in front of a computer, she is exploring the outdoors, gushing over trains, and you will probably find her at your nearest ramen shop™ reading some Beatniks."
+    description: "tl;dr javascript, infrastructure The not so short: Irina is a Berlin via London via Vancouver software developer who is, oh hey, hello, really into node.js. When she is not in front of a computer, she is exploring the outdoors, gushing over trains, and you will probably find her at your nearest ramen shop™ reading some Beatniks."
     image: irina-shestak.jpg
     first_name: Irina
     last_name: Shestak
-    twitter: _lrlna
+    twitter: "_lrlna"
   -
     id: nara-kasbergen
     description: "Nara Kasbergen is a senior full-stack developer in NPR (National Public Radio)’s Digital Media group, where she's worked on a variety of projects, most notably the third-party developer platform for NPR One. She recently joined the tech conference speaking circuit because of her interest in Developer Experience (DX), community-building, the intersection of humans and code, and her volunteer work for Open Sourcing Mental Illness, a non-profit organization raising awareness about mental health in the tech industry. Though she has no noticeable accent, she hails from The Netherlands and lived in Munich, Houston, Pittsburgh, Tokyo, and New York City prior to settling down in Washington, DC. In her spare time, she satisfies her foodie habits by trying out all of the best restaurants in the city, collects board games, and watches too much Netflix."
@@ -52,7 +52,7 @@ list:
     twitter: xiehan
   -
     id: luciano-mammino
-    description: "I am a software engineer born in 1987, the same year that “Super Mario Bros” was released in Europe, which, by chance is my favourite game! I started coding early at the age of 12, hacking away with my father's old i386 armed only with MS-DOS and the QBasic interpreter and I have been professionally a software developer for more than 10 years. I am currently a Solution Architect at Vectra AI in Dublin where I am working on automating the hunt for cyberattackers and speeding-up incident response. I love the fullstack web, Node.js and Serveless so I co-authored the book "Node.js design patterns" (http://amzn.to/1ZF279B), launched fstack.link (a semi-automated newsletter for Fullstack developers) and Serverlesslab.com (in-house serverless training)."
+    description: "I am a software engineer born in 1987, the same year that 'Super Mario Bros' was released in Europe, which, by chance is my favourite game! I started coding early at the age of 12, hacking away with my father's old i386 armed only with MS-DOS and the QBasic interpreter and I have been professionally a software developer for more than 10 years. I am currently a Solution Architect at Vectra AI in Dublin where I am working on automating the hunt for cyberattackers and speeding-up incident response. I love the fullstack web, Node.js and Serveless so I co-authored the book 'Node.js design patterns', launched fstack.link (a semi-automated newsletter for Fullstack developers) and Serverlesslab.com (in-house serverless training)."
     image: luciano-mammino.jpg
     first_name: Luciano
     last_name: Mammino
