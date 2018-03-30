@@ -106,3 +106,31 @@ list:
     first_name: Luigi
     last_name: De Rosa
     twitter: luruke
+  -
+    id: maurizio-mangione
+    description: "Google Developers Expert, Microsoft TAG member. Milano JS &amp; JS Girls founder. I love Progressive Web Apps, Web Components and all things Javascript"
+    image: maurizio-mangione.jpg
+    first_name: Maurizio
+    last_name: Mangione
+    twitter: granze
+  -
+    id: zack-argyle
+    description:  "Zack Argyle is the engineering manager for Pinterest's progressive web app. His free time is consumed by his offspring and littering github with open-source shenanigans."
+    image: zack-argyle.jpg
+    first_name: Zack
+    last_name: Argyle
+    twitter: zackargyle
+  -
+    id: jonni-nakari
+    description: "Jonni has strong technical skills originating from 10+ years of web frontend and full stack development. For the past 5 years he has been working at Vaadin, helping customers reach their dreams when it comes to Vaadin UI’s and doing Vaadin trainings around Europe. When it comes to technology choices, Jonni always strives to use open-source alternatives. His work emphasizes on modern web front-end technologies.  In his free time Jonni often finds himself in a hobby project involving electronics or 3D printing. When he is not geeking out with tech stuff he enjoys taking a bicycle ride, going rock climbing or doing some woodworks. As a person Jonni is calm and relaxed, but always ready for an adventure!"
+    image: jonni-nakari.jpg
+    first_name: Jonni
+    last_name: Nakari
+    twitter: JonniNakari
+  -
+    id: sara-vieira
+    description: "Front-End Developer at @YLDio, open sorcerer, maker of useless modules, blogger, drummer and horror movie fan girl."
+    image: sara-vieira.jpg
+    first_name: Sara
+    last_name: Vieira
+    twitter: NikkitaFTW
