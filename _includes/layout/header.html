@@ -48,6 +48,11 @@
       <a class="menu__item" href="index.html" title="jsDay 2018">
         Home
       </a>
+      {% if site.data.talks.list | size %}
+      <a class="menu__item" href="talks.html" title="Talks">
+        Talks
+      </a>
+      {% endif %}
       <a class="menu__item" href="tickets.html" title="Tickets">
         Tickets
       </a>
