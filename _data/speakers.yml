@@ -73,8 +73,22 @@ list:
     twitter: matteocollina
   -
     id: maja-wichrowska
-    description:
+    description: "Maja is a frontend software engineer at Airbnb. Her focus is on shared UI systems and writing sustainable code, and she maintains Airbnb's react-dates library and contributes to many other open-source repos as well"
     image: maja-wichrowska.jpg
     first_name: Maja
     last_name: Wichrowska
     twitter: majapw
+  -
+    id: tomasz-lakomy
+    description: "Tomasz is a Software Engineer at Egnyte Poland. Co-organiser of React Poznań Meetup and meet.js Poznań, JavaScript tinkerer who enjoys sharing his knowledge with other developers. His interests include VR, AR, React, app performance and making cheesiest jokes known to humanity."
+    image: tomasz-lakomy.jpg
+    first_name: Tomasz
+    last_name: Łakomy
+    twitter: tlakomy
+  -
+    id: vitalii-bobrov
+    description: "Vitalii is a Front-end engineer from Ukraine with more than 5 years of experience in web development. He started his career with PHP &amp; Drupal CMF and later realized that JavaScript and front-end are the exiting most things technologies. Currently, Vitalii lives in Poland, in the old nice city called Wroclaw. In delays of work at office and open source projects maintenance, he loves to spend time with his wife and little daughter, play different musical instruments and driving."
+    image: vitalii-bobrov.jpg
+    first_name: Vitalii
+    last_name: Bobrov
+    twitter: bobrov1989
