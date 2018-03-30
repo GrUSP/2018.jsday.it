@@ -92,3 +92,17 @@ list:
     first_name: Vitalii
     last_name: Bobrov
     twitter: bobrov1989
+  -
+    id: william-durand
+    description: "William is a former researcher in software testing, and now a polyglot developer at TailorDev where he helps academics to open their research. He is also an Open Source evangelist, a public speaker and a traveler."
+    image: william-durand.jpg
+    first_name: William
+    last_name: Durand
+    twitter: couac
+  -
+    id: luigi-derosa
+    description:
+    image: luigi-derosa.jpg
+    first_name: Luigi
+    last_name: De Rosa
+    twitter: luruke
