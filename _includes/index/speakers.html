@@ -1,0 +1,20 @@
+<div class="speakers">
+    <div class="container">
+        <div class="section-title">On stage</div>
+        <div class="speakers__list">
+            {% if site.data.speakers.list | size %}
+                {% for speaker in site.data.speakers.list %}
+                    <div class="speaker">
+                        <a class="speaker__card" href="https://twitter.com/{{ speaker.twitter }}" title="{{ speaker.first_name }} {{ speaker.last_name }}">
+                            <div class="speaker__picture"
+                                 style="background-image: url('images/speakers/{{ speaker.image }}')"></div>
+                            <div class="speaker__info">
+                                <div class="speaker__name">{{ speaker.first_name }} {{ speaker.last_name }}</div>
+                            </div>
+                        </a>
+                    </div>
+                {% endfor %}
+            {% endif %}
+        </div>
+    </div>
+</div>
