@@ -32,7 +32,21 @@ list:
   -
     id: nara-kasbergen
     description: "Nara Kasbergen is a senior full-stack developer in NPR (National Public Radio)’s Digital Media group, where she's worked on a variety of projects, most notably the third-party developer platform for NPR One. She recently joined the tech conference speaking circuit because of her interest in Developer Experience (DX), community-building, the intersection of humans and code, and her volunteer work for Open Sourcing Mental Illness, a non-profit organization raising awareness about mental health in the tech industry. Though she has no noticeable accent, she hails from The Netherlands and lived in Munich, Houston, Pittsburgh, Tokyo, and New York City prior to settling down in Washington, DC. In her spare time, she satisfies her foodie habits by trying out all of the best restaurants in the city, collects board games, and watches too much Netflix."
-    image: nara-kasbergen.png
+    image: nara-kasbergen.jpg
     first_name: Nara
     last_name: Kasbergen
     twitter: xiehan
+  -
+    id: brian-holt
+    description: "Brian is currently working as a senior cloud developer advocate at Microsoft and he's all about developers, developers, developers. Previously he was a JavaScript engineer at Netflix, LinkedIn and Reddit. When not working, Brian finds time to teach on Frontend Masters, run his mouth on Front End Happy Hour, travel all over the world, and play with his adorable dog. Brian is currently a resident of Seattle, WA."
+    image: brian-holt.jpg
+    first_name: Brian
+    last_name: Holt
+    twitter: holtbt
+  -
+    id: irina-shestak
+    description: "tl;dr javascript, infrastructure, 🍜 🍜 🍜. The not so short: Irina is a Berlin via London via Vancouver software developer who is, oh hey, hello, really into node.js. When she is not in front of a computer, she is exploring the outdoors, gushing over trains, and you will probably find her at your nearest ramen shop™ reading some Beatniks."
+    image: irina-shestak.jpg
+    first_name: Irina
+    last_name: Shestak
+    twitter: _lrlna
