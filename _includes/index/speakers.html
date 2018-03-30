@@ -3,7 +3,8 @@
     <div class="container">
         <div class="section-title">On stage</div>
         <div class="speakers__list">
-            {% for speaker in site.data.speakers.list %}
+            {% assign speakers = site.data.speakers.list | sort: 'first_name' %}
+            {% for speaker in speakers %}
             <div class="speaker">
                 <a class="speaker__card" href="https://twitter.com/{{ speaker.twitter }}"
                    title="{{ speaker.first_name }} {{ speaker.last_name }}">
