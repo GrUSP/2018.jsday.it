@@ -22,3 +22,17 @@ list:
     first_name: Alessandro
     last_name: Nadalin
     twitter: _odino_
+  -
+    id: aurore-malherbes
+    description: "Mobile Engineer at BAM, I've built React Native applications, for small startups as well as for big companies"
+    image: aurore-malherbes.png
+    first_name: Aurore
+    last_name: Malherbes
+    twitter: AuroreMa27
+  -
+    id: nara-kasbergen
+    description: "Nara Kasbergen is a senior full-stack developer in NPR (National Public Radio)’s Digital Media group, where she's worked on a variety of projects, most notably the third-party developer platform for NPR One. She recently joined the tech conference speaking circuit because of her interest in Developer Experience (DX), community-building, the intersection of humans and code, and her volunteer work for Open Sourcing Mental Illness, a non-profit organization raising awareness about mental health in the tech industry. Though she has no noticeable accent, she hails from The Netherlands and lived in Munich, Houston, Pittsburgh, Tokyo, and New York City prior to settling down in Washington, DC. In her spare time, she satisfies her foodie habits by trying out all of the best restaurants in the city, collects board games, and watches too much Netflix."
+    image: nara-kasbergen.png
+    first_name: Nara
+    last_name: Kasbergen
+    twitter: xiehan
