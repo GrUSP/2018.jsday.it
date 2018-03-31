@@ -13,8 +13,7 @@ Please check page contents in the _includes folder.
     <div class="container">
         <div class="section-title">Talks</div>
         <div>
-            {% assign talks = site.data.talks.list | sort: 'speaker_id' %}
-            {% for talk in talks %}
+            {% for talk in site.data.talks.list %}
                 {% include talks/talk.html talk=talk %}
             {% endfor %}
         </div>
