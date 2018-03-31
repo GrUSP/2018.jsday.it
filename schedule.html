@@ -1,0 +1,174 @@
+---
+title: Schedule
+css: schedule
+---
+
+<div class="schedule">
+  <div class="container">
+    <div class="section-title">Wednesday, May 9th</div>
+    <table class="schedule__table">
+      <thead>
+      {% include schedule/header.html tracks='3' %}
+      </thead>
+      <tbody>
+
+      {% include schedule/event.html time='08:30 - 09:30' title='Check in' fill='true' %}
+      {% include schedule/event.html time='09:30 - 09:45' title='INTRO' fill='true' %}
+
+      {% include schedule/talk.html time='9.45-10.45' title="" keynote='true' fill='true' %}
+
+      {% include schedule/event.html time='10:45 - 11:00' title='SHORT COFFEE BREAK' fill='true' %}
+
+      <tr class="schedule__row">
+        {% include schedule/talk.html time='11:00 - 12:00' title="" %}
+        {% include schedule/talk.html title="" %}
+        {% include schedule/talk.html title="" %}
+      </tr>
+
+      <tr class="schedule__row ">
+        {% include schedule/talk.html time='12:00 - 13:00' title="" %}
+        {% include schedule/talk.html title="" %}
+        <td>
+          <div class="schedule__talk-title">
+            Workshop continues
+          </div>
+        </td>
+      </tr>
+
+      {% include schedule/event.html time='13:00 - 14:30' title='LUNCH TIME' fill='true' %}
+
+      <tr class="schedule__row">
+        {% include schedule/talk.html time='14:30 - 15:00' title="" %}
+        {% include schedule/talk.html title="" %}
+        <td>
+          <div class="schedule__talk-title">
+            Workshop continues
+          </div>
+        </td>
+      </tr>
+
+      <tr class="schedule__row">
+        {% include schedule/talk.html time='15:00 - 16:00' title="" %}
+        {% include schedule/talk.html title="" %}
+        <td>
+          <div class="schedule__talk-title">
+            Unconf
+          </div>
+        </td>
+      </tr>
+
+      {% include schedule/event.html time='16:00 - 16:30' title='COFFEE BREAK' fill='true' %}
+
+      <tr class="schedule__row">
+        {% include schedule/talk.html time='16:30 - 17:00' title="" %}
+        {% include schedule/talk.html title="" %}
+        <td>
+          <div class="schedule__talk-title">
+            Unconf
+          </div>
+        </td>
+      </tr>
+
+      <tr class="schedule__row">
+        {% include schedule/talk.html time='17:00 - 17:30' title="" %}
+        {% include schedule/talk.html title="" %}
+        <td>
+          <div class="schedule__talk-title">
+            Unconf
+          </div>
+        </td>
+      </tr>
+
+      {% include schedule/event.html time='17:30 - 18:30' title='HAPPY HOUR' fill='true' %}
+      {% include schedule/event.html time='20:00 - 24:00' title='PARTY !!!' fill='true' %}
+
+      </tbody>
+    </table>
+
+    <div class="section-title">Thursday, May 10th</div>
+
+    <table class="schedule__table">
+      <thead>
+      {% include schedule/header.html tracks='3' %}
+      </thead>
+      <tbody>
+
+      {% include schedule/event.html time='08:30 - 09:30' title='Check in' fill='true' %}
+      {% include schedule/event.html time='09:30 - 09:45' title='INTRO' fill='true' %}
+
+      {% include schedule/talk.html time='9.45-10.45' title="" keynote='true' fill='true' %}
+
+      {% include schedule/event.html time='10:45 - 11:00' title='SHORT COFFEE BREAK' fill='true' %}
+
+      <tr class="schedule__row">
+        {% include schedule/talk.html time='11:00 - 11:30' title="" %}
+        {% include schedule/talk.html title="" %}
+        <td>
+          <div class="schedule__talk-title">
+            Unconf
+          </div>
+        </td>
+      </tr>
+
+      <tr class="schedule__row">
+        {% include schedule/talk.html time='11:30 - 12:00' title="" %}
+        {% include schedule/talk.html title="" %}
+        <td>
+          <div class="schedule__talk-title">
+            Unconf
+          </div>
+        </td>
+      </tr>
+
+      <tr class="schedule__row">
+        {% include schedule/talk.html time='12:00 - 13:00' title="" %}
+        {% include schedule/talk.html title="" %}
+        <td>
+          <div class="schedule__talk-title">
+            Unconf
+          </div>
+        </td>
+      </tr>
+
+      {% include schedule/event.html time='13:00 - 14:30' title='LUNCH TIME' fill='true' %}
+
+      <tr class="schedule__row">
+        {% include schedule/talk.html time='14:30 - 15:00' title="" %}
+        {% include schedule/talk.html title="" %}
+        <td>
+          <div class="schedule__talk-title">
+            Unconf
+          </div>
+        </td>
+      </tr>
+      <tr class="schedule__row">
+        {% include schedule/talk.html time='15:00 - 16:00' title="" %}
+        {% include schedule/talk.html title="" %}
+        <td>
+          <div class="schedule__talk-title">
+            Unconf
+          </div>
+        </td>
+      </tr>
+      <tr class="schedule__row">
+        {% include schedule/talk.html time='16:00 - 17:00' title="" %}
+        {% include schedule/talk.html title="" %}
+        <td>
+          <div class="schedule__talk-title">
+            Unconf
+          </div>
+        </td>
+      </tr>
+
+      {% include schedule/event.html time='17:00 - 17:30' title='COFFEE BREAK' fill='true' %}
+
+      {% include schedule/talk.html time='17:30 - 18:00' title="" keynote='true' fill='true' %}
+
+      {% include schedule/event.html time='18:00 - 18:10' title='CIAO from GrUSP' fill='true' %}
+
+      </tbody>
+    </table>
+  </div>
+</div>
+
+{% include sponsors.html %}

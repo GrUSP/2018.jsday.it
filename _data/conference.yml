@@ -13,6 +13,7 @@ media_partners_helper: jsday.js
 domain: jsday.it
 show_cfp: false
 cfp_url: https://cfp.jsday.it/
+schedule_available: false
 
 iubenda:
   cookiePolicyId: 35664682

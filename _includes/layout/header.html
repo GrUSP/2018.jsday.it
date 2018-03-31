@@ -1,6 +1,8 @@
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.data.conference.google.tag_manager_id }}"
-                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<noscript>
+  <iframe src="https://www.googletagmanager.com/ns.html?id={{ site.data.conference.google.tag_manager_id }}"
+          height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
 <!-- End Google Tag Manager (noscript) -->
 
 <div class="past-editions">
@@ -8,7 +10,8 @@
     <span class="past-editions__title">Browse past editions</span>
     {% for year in (site.data.conference.since..site.data.conference.year) reversed %}
     {% if forloop.first == false %}
-    <a class="past-editions__link" href="http://{{ year }}.{{ site.data.conference.domain }}" title="{{ site.data.conference.name }} {{ year }}">{{ year }}</a>
+    <a class="past-editions__link" href="http://{{ year }}.{{ site.data.conference.domain }}"
+       title="{{ site.data.conference.name }} {{ year }}">{{ year }}</a>
     {% endif %}
     {% endfor %}
   </div>
@@ -19,7 +22,8 @@
     <div class="header__content">
       <h1>
         <a href="index.html" title="{{ site.data.conference.name }} {{ site.data.conference.year }}">
-          <img src="images/logos/jsday.png" alt="{{ site.data.conference.name }} {{ site.data.conference.year }}" />
+          <img src="images/logos/jsday.png"
+               alt="{{ site.data.conference.name }} {{ site.data.conference.year }}"/>
         </a>
       </h1>
       {% if site.data.conference.show_cfp %}
@@ -51,6 +55,11 @@
       {% if site.data.talks.list | size %}
       <a class="menu__item" href="talks.html" title="Talks">
         Talks
+      </a>
+      {% endif %}
+      {% if site.data.conference.schedule_available %}
+      <a class="menu__item" href="schedule.html" title="Talks">
+        Schedule
       </a>
       {% endif %}
       <a class="menu__item" href="tickets.html" title="Tickets">
