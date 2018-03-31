@@ -230,3 +230,43 @@ list:
       applications. The main API for PWA creation is Service Workers. But have you think about it as a possible browsers vulnerability?
       Is it secure enough? Should users use it carefully? All those questions are very actual in times when almost all vendors have implemented
       or put in development Service Workers support.
+  -
+    speaker_id:
+      - william-durand
+    tags:
+      - SSR
+    title: >
+      Server Side Rendering from the trenches
+    extract: >
+      Server Side Rendering (SSR) is a technique to reuse client-side JavaScript code on the server. The main advantage is to speed up the first
+      rendering time and improve the user experience on page load. It is considered one of the most complicated features to implement in the JS
+      ecosystem. Yet, web apps with a high traffic often need it. In this talk, I’ll start by introducing the concept of SSR, followed by examples
+      with React, Vue and some other frameworks (like Next or Nuxt). The last part will be dedicated to what I've learned building the new Mozilla
+      Add-ons frontend.
+  -
+    speaker_id:
+      - luigi-derosa
+    tags:
+      - webgl
+      - games development
+    title: >
+      My journey with WebGL
+    extract: >
+      In the past years I've had chance to work on different WebGL projects, from particles simulation to games.
+      In this talk I'm going to show my journey with WebGL, I'll talk about common pitfalls, performance tricks and how to debug it.
+      Everything using real world examples and production code.
+  -
+    speaker_id:
+      - jonni-nakari
+    tags:
+      - PWA
+      - API
+    title: >
+      Web Payment APIs
+    extract: >
+      Implementing the standard Web Payment APIs will not just improve the user experience, but increase the chance of maintaining your users.
+      Thanks to the safety nature of the process of payment, the APIs will make the decision of clicking "pay" easier like never before. In this
+      presentation we will discuss the basics of implementing the APIs, the available gateways, and show some demos and how they resonate in the
+      era of PWA. We will also discuss the current limitations, and how the future will look like towards standardizing those APIs. In this
+      presentation I will give an intro about web payment APIs, why they are needed, comparison with autofill APIs, and how to implement them with
+      sample code. I will also cover some important use cases, and current limitations.
