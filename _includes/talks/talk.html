@@ -2,12 +2,17 @@
 <div class="talk">
     {% for speaker in site.data.speakers.list %}
         {% if speaker.id == talk.speaker_id.first %}
+            {% assign bio = speaker.description %}
+            <a name="{{ speaker.id }}"></a>
             <a class="talk__speaker" href="https://twitter.com/{{ speaker.twitter}}"
                title="{{ speaker.first_name }} {{ speaker.last_name }}">
                 <div class="talk__picture" style="background-image: url('images/speakers/{{ speaker.image }}')"></div>
                 <div>
                     <div class="talk__name">
                         {{ speaker.first_name }} {{ speaker.last_name }}
+                    </div>
+                    <div class="speaker__company">
+                        {{ speaker.company }}
                     </div>
                 </div>
             </a>
@@ -24,6 +29,10 @@
             {% endif %}
         <p class="talk__abstract">
             {{ talk.extract }}
+        </p>
+        <p class="talk__bio__title">Bio</p>
+        <p class="talk__bio">
+            {{ bio }}
         </p>
     </div>
 </div>

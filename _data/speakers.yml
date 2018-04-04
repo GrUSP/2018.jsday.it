@@ -15,7 +15,7 @@ list:
     first_name: Alessandro
     last_name: Nadalin
     twitter: _odino_
-    company:
+    company: Rocket Internet
   -
     id: aurore-malherbes
     description: "Mobile Engineer at BAM, I've built React Native applications, for small startups as well as for big companies"
@@ -23,7 +23,7 @@ list:
     first_name: Aurore
     last_name: Malherbes
     twitter: AuroreMa27
-    company:
+    company: BAM
   -
     id: brian-holt
     description: "Brian is currently working as a senior cloud developer advocate at Microsoft and he's all about developers, developers, developers. Previously he was a JavaScript engineer at Netflix, LinkedIn and Reddit. When not working, Brian finds time to teach on Frontend Masters, run his mouth on Front End Happy Hour, travel all over the world, and play with his adorable dog. Brian is currently a resident of Seattle, WA."
@@ -31,7 +31,7 @@ list:
     first_name: Brian
     last_name: Holt
     twitter: holtbt
-    company:
+    company: Microsoft
   -
     id: francesco-strazzullo
     description: "Francesco Strazzullo is a Front-End Engineer, speaker and writer for codingjam.it. When not working for e-xtrategy or his personal github projects, Francesco likes to relax playing with his Playstation or cooking some strange ethnic dish for him and his friends."
@@ -39,15 +39,15 @@ list:
     first_name: Francesco
     last_name: Strazzullo
     twitter: TheStrazz86
-    company:
+    company: e-xtrategy
   -
     id: irina-shestak
-    description: "tl;dr javascript, infrastructure The not so short: Irina is a Berlin via London via Vancouver software developer who is, oh hey, hello, really into node.js. When she is not in front of a computer, she is exploring the outdoors, gushing over trains, and you will probably find her at your nearest ramen shop™ reading some Beatniks."
+    description: "tl;dr javascript, infrastructure. The not so short: Irina is a Berlin via London via Vancouver software developer who is, oh hey, hello, really into node.js. When she is not in front of a computer, she is exploring the outdoors, gushing over trains, and you will probably find her at your nearest ramen shop™ reading some Beatniks."
     image: irina-shestak.jpg
     first_name: Irina
     last_name: Shestak
     twitter: "_lrlna"
-    company:
+    company: MongoDB
   -
     id: nara-kasbergen
     description: "Nara Kasbergen is a senior full-stack developer in NPR (National Public Radio)’s Digital Media group, where she's worked on a variety of projects, most notably the third-party developer platform for NPR One. She recently joined the tech conference speaking circuit because of her interest in Developer Experience (DX), community-building, the intersection of humans and code, and her volunteer work for Open Sourcing Mental Illness, a non-profit organization raising awareness about mental health in the tech industry. Though she has no noticeable accent, she hails from The Netherlands and lived in Munich, Houston, Pittsburgh, Tokyo, and New York City prior to settling down in Washington, DC. In her spare time, she satisfies her foodie habits by trying out all of the best restaurants in the city, collects board games, and watches too much Netflix."
@@ -55,7 +55,7 @@ list:
     first_name: Nara
     last_name: Kasbergen
     twitter: xiehan
-    company:
+    company: National Public Radio
   -
     id: luciano-mammino
     description: "I am a software engineer born in 1987, the same year that 'Super Mario Bros' was released in Europe, which, by chance is my favourite game! I started coding early at the age of 12, hacking away with my father's old i386 armed only with MS-DOS and the QBasic interpreter and I have been professionally a software developer for more than 10 years. I am currently a Solution Architect at Vectra AI in Dublin where I am working on automating the hunt for cyberattackers and speeding-up incident response. I love the fullstack web, Node.js and Serveless so I co-authored the book 'Node.js design patterns', launched fstack.link (a semi-automated newsletter for Fullstack developers) and Serverlesslab.com (in-house serverless training)."
@@ -63,7 +63,7 @@ list:
     first_name: Luciano
     last_name: Mammino
     twitter: loige
-    company:
+    company: Vectra AI
   -
     id: nir-noy
     description: "Nir Noy is a Full stack Consultant at Sela Group, with over a decade of professional experience in building Full Stack solutions. He has served as a Consultant, developer and Team Leader in companies of all shapes and sizes. In the course of his career he has built web applications using a wide array of client and server technologies, more recently focusing on Angular, React, NodeJS, ASP.NET MVC, ASP.NET Web API. Nir is also the lead of israel's FrontEnd.IL community and meetup group."
@@ -71,7 +71,7 @@ list:
     first_name: Nir
     last_name: Noy
     twitter: noynir
-    company:
+    company: Sela Group
   -
     id: matteo-collina
     description: "Matteo is a code pirate and mad scientist. He spends most of his days programming in Node.js, but in the past he worked with Ruby, Java and Objective-C. In 2014, he defended his Ph.D. thesis titled 'Application Platforms for the Internet of Things'. Now he is a Principal Architect at [nearForm](http://nearform.com), where he consults for the top brands of the world. Matteo is also the author of the Node.js MQTT Broker, [Mosca](http://mosca.io), the fast logger [Pino](https://github.com/mcollina/pino) and of the [Fastify](https://www.fastify.io) web framework. Matteo is also a member of the Node.js Technical Steering Committee. Matteo spoke at several international conferences: Node.js Interactive, NodeConf.eu, NodeSummit, LXJS, Distill by Engine Yard, and JsDay to name a few. He is also co-author of the book 'Javascript: Best Practices' edited by FAG, Milan. In the summer he loves sailing the _Sirocco_."
@@ -79,7 +79,7 @@ list:
     first_name: Matteo
     last_name: Collina
     twitter: matteocollina
-    company:
+    company: nearForm
   -
     id: maja-wichrowska
     description: "Maja is a frontend software engineer at Airbnb. Her focus is on shared UI systems and writing sustainable code, and she maintains Airbnb's react-dates library and contributes to many other open-source repos as well"
@@ -87,15 +87,7 @@ list:
     first_name: Maja
     last_name: Wichrowska
     twitter: majapw
-    company:
-  -
-    id: tomasz-lakomy
-    description: "Tomasz is a Software Engineer at Egnyte Poland. Co-organiser of React Poznań Meetup and meet.js Poznań, JavaScript tinkerer who enjoys sharing his knowledge with other developers. His interests include VR, AR, React, app performance and making cheesiest jokes known to humanity."
-    image: tomasz-lakomy.jpg
-    first_name: Tomasz
-    last_name: Łakomy
-    twitter: tlakomy
-    company:
+    company: Airbnb
   -
     id: vitalii-bobrov
     description: "Vitalii is a Front-end engineer from Ukraine with more than 5 years of experience in web development. He started his career with PHP &amp; Drupal CMF and later realized that JavaScript and front-end are the exiting most things technologies. Currently, Vitalii lives in Poland, in the old nice city called Wroclaw. In delays of work at office and open source projects maintenance, he loves to spend time with his wife and little daughter, play different musical instruments and driving."
@@ -103,7 +95,7 @@ list:
     first_name: Vitalii
     last_name: Bobrov
     twitter: bobrov1989
-    company:
+    company: EPAM Systems
   -
     id: william-durand
     description: "William is a former researcher in software testing, and now a polyglot developer at TailorDev where he helps academics to open their research. He is also an Open Source evangelist, a public speaker and a traveler."
@@ -111,7 +103,7 @@ list:
     first_name: William
     last_name: Durand
     twitter: couac
-    company:
+    company: TailorDev
   -
     id: luigi-derosa
     description:
@@ -119,7 +111,7 @@ list:
     first_name: Luigi
     last_name: De Rosa
     twitter: luruke
-    company:
+    company: epic
   -
     id: maurizio-mangione
     description: "Google Developers Expert, Microsoft TAG member. Milano JS &amp; JS Girls founder. I love Progressive Web Apps, Web Components and all things Javascript"
@@ -127,7 +119,7 @@ list:
     first_name: Maurizio
     last_name: Mangione
     twitter: granze
-    company:
+    company: Accenture
   -
     id: zack-argyle
     description:  "Zack Argyle is the engineering manager for Pinterest's progressive web app. His free time is consumed by his offspring and littering github with open-source shenanigans."
@@ -135,7 +127,7 @@ list:
     first_name: Zack
     last_name: Argyle
     twitter: zackargyle
-    company:
+    company: Pinterest
   -
     id: jonni-nakari
     description: "Jonni has strong technical skills originating from 10+ years of web frontend and full stack development. For the past 5 years he has been working at Vaadin, helping customers reach their dreams when it comes to Vaadin UI’s and doing Vaadin trainings around Europe. When it comes to technology choices, Jonni always strives to use open-source alternatives. His work emphasizes on modern web front-end technologies.  In his free time Jonni often finds himself in a hobby project involving electronics or 3D printing. When he is not geeking out with tech stuff he enjoys taking a bicycle ride, going rock climbing or doing some woodworks. As a person Jonni is calm and relaxed, but always ready for an adventure!"
@@ -143,12 +135,36 @@ list:
     first_name: Jonni
     last_name: Nakari
     twitter: JonniNakari
-    company:
+    company: Vaadin
   -
     id: sara-vieira
-    description: "Front-End Developer at @YLDio, open sorcerer, maker of useless modules, blogger, drummer and horror movie fan girl."
+    description: "Front-End Developer at @ YLDio, open sorcerer, maker of useless modules, blogger, drummer and horror movie fan girl."
     image: sara-vieira.jpg
     first_name: Sara
     last_name: Vieira
     twitter: NikkitaFTW
-    company:
+    company: YLD
+  -
+    id: keyfer-mathewson
+    description: "Keyfer Mathewson is currently a Front End Developer working for Shopify, from his home in Edmonton, Canada. Before Shopify, Keyfer worked for a small Canadian design agency leading a team of developers building award-winning websites. When he's not in front of his computer, you can find Keyfer hiking with his fiance and puppy, playing hockey, or pretending to be good at video games."
+    image: keyfer-mathewson.jpg
+    first_name: Keyfer
+    last_name: Mathewson
+    twitter: Keyfermath
+    company: Shopify
+  -
+    id: guido-dorsi
+    description: "Front-end Engineer @ Immobiliare.it, functional programming enthusiast & performance paladin. I'm here because i won the past edition's unconference (and I would suggest you to give it a try)."
+    image: guido-dorsi.jpg
+    first_name: Guido
+    last_name: D'Orsi
+    twitter: stokathso
+    company: Immobiliare.it
+  -
+    id: liran-tal
+    description: "Liran has been advocating for Node.js and JavaScript, through core lead for the MEAN.js framework, and other projects like docker container tool Dockly. He’s the author of Essential Node.js Security, and a regular contributor on the OWASP Node.js project. Liran is strongly passionate about Open Source since an early age, and enjoys mentoring, and empowering others as they make their way in the community."
+    image: liran-tal.jpg
+    first_name: Liran
+    last_name: Tal
+    twitter: liran_tal
+    company: eXelate

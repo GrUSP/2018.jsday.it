@@ -35,6 +35,14 @@ list:
       algorithms that changed computing forever.
   -
     speaker_id:
+      - guido-dorsi
+    tags:
+      - vanilla
+    title: The vanilla way
+    extract: >
+      Let's mix web standards, modern frontend patterns &amp; some functional programming to invent a new way to develop vanilla js applications!
+  -
+    speaker_id:
       - zack-argyle
     tags:
       - use cases
@@ -67,6 +75,18 @@ list:
       application? During this talk, we use Lighthouse, an open-source, automated tool for improving the quality of web pages,
       understanding which features we need to transform our website into a full-fledged PWA. We're going to run Lighthouse, using
       it as a checklist for creating the perfect PWA.
+  -
+    speaker_id:
+      - keyfer-mathewson
+    tags:
+      - Artificial Intelligence
+      - Machine Learning
+    title: Artificial Intelligence and Machine Learning in the browser
+    extract: >
+      The Artificial Intelligence and Machine Learning fields are incredibly vast, but only going to grow bigger. Right now, the
+      majority of individuals in the field are not Javascript developers, but rather Python and other high-level programming languages.
+      This talk aims to show people an entry point into writing and using AI/ML in the browser using some newer technologies, and how
+      these powerful tools can be harness to help with development, accessibility, personalization, and interactivity on the web.
   -
     speaker_id:
       - nara-kasbergen
@@ -206,18 +226,6 @@ list:
       limitations of browser support for ES2015 modules, and highlight their advantages over existing JavaScript packaging solutions.
   -
     speaker_id:
-      - tomasz-lakomy
-    tags:
-      - Augmented Reality
-    title: >
-      Stepping out of the browser window with AR for the Web
-    extract: >
-      I strongly believe that the Web can be so much more than displaying lists of items on a webpage (think Facebook, Twitter, Reddit). The
-      possibilities are truly limitless and we will explore just one of them - Augmented Reality (AR, for short) for the Web. During the talk
-      we will see how can you create your own AR experiences using only the browser and a bit of JavaScript - using amazing libraries such as
-      AR.js and React-AR. Live demos are obviously included!
-  -
-    speaker_id:
       - vitalii-bobrov
     tags:
       - PWA
@@ -270,3 +278,16 @@ list:
       era of PWA. We will also discuss the current limitations, and how the future will look like towards standardizing those APIs. In this
       presentation I will give an intro about web payment APIs, why they are needed, comparison with autofill APIs, and how to implement them with
       sample code. I will also cover some important use cases, and current limitations.
+  -
+    speaker_id:
+      - liran-tal
+    tags:
+      - Jest
+      - testing
+      - design patterns
+    title: >
+      Jest Testing Patterns
+    extract: >
+      Test doubles? Assertions? Code coverage? Jest has it all! There are many testing frameworks and test utilities in the JavaScript ecosystem,
+      but jest is the one which is quickly becoming a favorite for many developers. The talk will introduce jest as a testing framework, the reasons
+      why developers love it, and explore its hidden features, testing patterns, and Jest's extensions ecosystem.

@@ -6,12 +6,13 @@
             {% assign speakers = site.data.speakers.list | sort: 'first_name' %}
             {% for speaker in speakers %}
             <div class="speaker">
-                <a class="speaker__card" href="https://twitter.com/{{ speaker.twitter }}"
+                <a class="speaker__card" href="talks.html#{{ speaker.id }}"
                    title="{{ speaker.first_name }} {{ speaker.last_name }}">
                     <div class="speaker__picture"
                          style="background-image: url('images/speakers/{{ speaker.image }}')"></div>
                     <div class="speaker__info">
                         <div class="speaker__name">{{ speaker.first_name }} {{ speaker.last_name }}</div>
+                        <div class="speaker__company">{{ speaker.company }}</div>
                     </div>
                 </a>
             </div>
