@@ -51,13 +51,6 @@ list:
     title: TBA
     extract: >
   -
-    slot: "17"
-    speaker_id:
-      -
-    tags:
-    title: TBA
-    extract: >
-  -
     slot: "22"
     speaker_id:
       -
@@ -295,6 +288,26 @@ list:
       times the cost. The next day, you try to analyze what happened and begin to optimize your application to prepare for future load spikes. This
       talk is a journey into the world of Node.js performance, taking a look at the available tools and optimization techniques inspired by insight
       gained from glimpsing under the hood of Node and V8.
+  -
+    slot: "17"
+    speaker_id:
+      - matteo-collina
+    tags:
+      - workshop
+      - performances
+      - node.js
+      - v8
+    title: >
+      The Node.js Performance Workshop
+    extract: >
+      We’ve been discovering how to write performant JavaScript in Node.js since the beginning. Before we knew how it was it done it all seemed so
+      magical. But as we became better at understanding fast-scrolling text littered with hex addresses we began a journey to solidify our approach
+      and share it with others. Our primary strategy? Build tools that make optimizing Node easier, then formalize a workflow process around those
+      tools. The workshop is extremely interactive. We make sure that each participant solves several performance issues in a given HTTP application.
+      Our methods and tools include 0x for flamegraph generation, autocannon for HTTP/1.1 benchmarking, v8 trace analysis, and bytecode interpretation
+      all within a structured analysis workflow. <br>
+      Requirements: Participation requires a recent version of either Linux, Windows or macOs. You will need root/admin access, and the ability to
+      build native node modules (XCode and command line tools on Mac OS X, Visual Studio on Windows).
   -
     slot: "4"
     speaker_id:

@@ -1,38 +1,40 @@
 {% assign talk = include.talk %}
-<div class="talk">
-    {% for speaker in site.data.speakers.list %}
-        {% if speaker.id == talk.speaker_id.first %}
-            {% assign bio = speaker.description %}
-            <a name="{{ speaker.id }}"></a>
-            <a class="talk__speaker" href="https://twitter.com/{{ speaker.twitter}}"
-               title="{{ speaker.first_name }} {{ speaker.last_name }}">
-                <div class="talk__picture" style="background-image: url('images/speakers/{{ speaker.image }}')"></div>
-                <div>
-                    <div class="talk__name">
-                        {{ speaker.first_name }} {{ speaker.last_name }}
+{% if talk.title != "TBA" %}
+    <div class="talk">
+        {% for speaker in site.data.speakers.list %}
+            {% if speaker.id == talk.speaker_id.first %}
+                {% assign bio = speaker.description %}
+                <a name="{{ speaker.id }}"></a>
+                <a class="talk__speaker" href="https://twitter.com/{{ speaker.twitter}}"
+                   title="{{ speaker.first_name }} {{ speaker.last_name }}">
+                    <div class="talk__picture" style="background-image: url('images/speakers/{{ speaker.image }}')"></div>
+                    <div>
+                        <div class="talk__name">
+                            {{ speaker.first_name }} {{ speaker.last_name }}
+                        </div>
+                        <div class="speaker__company">
+                            {{ speaker.company }}
+                        </div>
                     </div>
-                    <div class="speaker__company">
-                        {{ speaker.company }}
-                    </div>
-                </div>
-            </a>
-        {% endif %}
-    {% endfor %}
-    <div class="talk__content">
-        <div class="talk__title">{{ talk.title }}</div>
-            {% if talk.tags %}
-                <div class="talk__tags">
-                    {% for tag in talk.tags %}
-                    <span class="talk__tag">{{ tag }}</span>
-                    {% endfor %}
-                </div>
+                </a>
             {% endif %}
-        <p class="talk__abstract">
-            {{ talk.extract }}
-        </p>
-        <p class="talk__bio__title">Bio</p>
-        <p class="talk__bio">
-            {{ bio }}
-        </p>
+        {% endfor %}
+        <div class="talk__content">
+            <div class="talk__title">{{ talk.title }}</div>
+                {% if talk.tags %}
+                    <div class="talk__tags">
+                        {% for tag in talk.tags %}
+                        <span class="talk__tag">{{ tag }}</span>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+            <p class="talk__abstract">
+                {{ talk.extract }}
+            </p>
+            <p class="talk__bio__title">Bio</p>
+            <p class="talk__bio">
+                {{ bio }}
+            </p>
+        </div>
     </div>
-</div>
+{% endif %}
