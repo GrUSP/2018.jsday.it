@@ -10,6 +10,7 @@
 
 list:
   -
+    slot: "28"
     speaker_id:
       - sara-vieira
     tags:
@@ -22,6 +23,63 @@ list:
       In this talk Sara will expose her personal mental health issues that she had for a long time so you don’t ever feel embarrassed again.
       She will go through what she learned in this horrible horrible journey of putting a fix flag on her brain in the hope that it helps as many people as possible.
   -
+    slot: "7"
+    speaker_id:
+      -
+    tags:
+    title: TBA
+    extract: >
+  -
+    slot: "13"
+    speaker_id:
+      -
+    tags:
+    title: TBA
+    extract: >
+  -
+    slot: "15"
+    speaker_id:
+      -
+    tags:
+    title: TBA
+    extract: >
+  -
+    slot: "16"
+    speaker_id:
+      -
+    tags:
+    title: TBA
+    extract: >
+  -
+    slot: "17"
+    speaker_id:
+      -
+    tags:
+    title: TBA
+    extract: >
+  -
+    slot: "22"
+    speaker_id:
+      -
+    tags:
+    title: TBA
+    extract: >
+  -
+    slot: "23"
+    speaker_id:
+      -
+    tags:
+    title: TBA
+    extract: >
+  -
+    slot: "24"
+    speaker_id:
+      -
+    tags:
+    title: TBA
+    extract: >
+  -
+    slot: "21"
     speaker_id:
       - alessandro-nadalin
     tags:
@@ -34,6 +92,7 @@ list:
       3 real-world applications which you can start using today. From gigabytes to kilobytes, from minutes to seconds: a journey into ingenious
       algorithms that changed computing forever.
   -
+    slot: "10"
     speaker_id:
       - guido-dorsi
     tags:
@@ -42,6 +101,7 @@ list:
     extract: >
       Let's mix web standards, modern frontend patterns &amp; some functional programming to invent a new way to develop vanilla js applications!
   -
+    slot: "1"
     speaker_id:
       - zack-argyle
     tags:
@@ -53,6 +113,7 @@ list:
       A case study of the from-scratch, 3-month rewrite of Pinterest's mobile web app. Learn about how they optimized for mobile, and the
       bottom-line benefits of investing in the mobile web.
   -
+    slot: "8"
     speaker_id:
       - aurore-malherbes
     tags:
@@ -64,6 +125,7 @@ list:
       yes and yes! In 50 minutes, we’ll look at how to code an app half way between The Fork and Instagram. I’d like to show you why I believe
       that React Native is the mobile technology of the future, whether in terms of user experience or developer experience.
   -
+    slot: "6"
     speaker_id:
       - maurizio-mangione
     tags:
@@ -76,6 +138,23 @@ list:
       understanding which features we need to transform our website into a full-fledged PWA. We're going to run Lighthouse, using
       it as a checklist for creating the perfect PWA.
   -
+    slot: "14"
+    speaker_id:
+      - paul-verbeek-mast
+    tags:
+      - teamwork
+      - lego
+      - keynote
+    title: >
+      Everything is awesome: the Lego approach to being an awesome coworker
+    extract: >
+      🎵Everything is cool when you’re part of a team! The Lego Movie came out almost 4 years ago, and it taught children everywhere the importance
+      of teamwork. And what teamwork, and working in harmony, actually is. Let’s just hope that those lessons really stick with these kids. Because let’s
+      be honest, we’re making a mess of it. But it’s not too late for us. We can learn from the Lego Movie as well. I’ll show you how you can help to make
+      sure everyone feels safe and respected in your team and your company. How you can feel better being the unique person you are within your team. And
+      how you can make your, and everyone else’s, life more awesome!
+  -
+    slot: "27"
     speaker_id:
       - keyfer-mathewson
     tags:
@@ -88,6 +167,7 @@ list:
       This talk aims to show people an entry point into writing and using AI/ML in the browser using some newer technologies, and how
       these powerful tools can be harness to help with development, accessibility, personalization, and interactivity on the web.
   -
+    slot: "3"
     speaker_id:
       - nara-kasbergen
     tags:
@@ -108,6 +188,7 @@ list:
       once they are further along. Finally, we'll discuss the mistakes we made, the things we wish we'd done differently, and the things
       we wished we'd known up front as we set out on our journey to build a next-generation voice UI framework in-house at NPR.
   -
+    slot: "26"
     speaker_id:
       - brian-holt
     tags:
@@ -126,6 +207,7 @@ list:
       to make examples this apply to any application that uses these two phenomenal tools. You’ll be surprised at what you can do just
       turning a few knobs.
   -
+    slot: "2"
     speaker_id:
       - francesco-strazzullo
     tags:
@@ -140,6 +222,7 @@ list:
       see how we applied the StranglerApplication pattern to make an AngularJS 1.2 Application in a shiny new codebase that our team really
       love.
   -
+    slot: "19"
     speaker_id:
       - irina-shestak
     tags:
@@ -158,13 +241,14 @@ list:
       decryption? How does the concept of session come in to play? How does node handle memory usage when it comes to HTTP2? And what are these
       frame things everyone keeps talking about? This and more explained in HTTP2, one frame at a time. Coming to theatre near you from Spring 2018.
   -
+    slot: "5"
     speaker_id:
       - luciano-mammino
     tags:
       - serverless
       - cloud computing
     title: >
-      The future will be Serverless
+      The future will be Serverless (30')
     extract: >
       Software development is on the verge of a new revolution that will change the rules of the Cloud Computing game... again! The new wind
       of change is called "Serverless" and you should definitely get ready for it! In this talk I will illustrate why I believe Serverless
@@ -177,6 +261,7 @@ list:
       - It will show how to get started with the Serverless paradigm, either migrating existing apps or building a new one from scratch.<br>
       - I will tell some real-life experience I have after almost 2 years of developing Serverless applications In Node.js/JavaScript<br>
   -
+    slot: "20"
     speaker_id:
       - maja-wichrowska
     tags:
@@ -194,6 +279,7 @@ list:
       codebase. Our efforts led us most of the way to launching in Arabic and Hebrew while requiring little effort from our product engineers and
       with minimal disruption to their work.
   -
+    slot: "11"
     speaker_id:
       - matteo-collina
     tags:
@@ -210,12 +296,13 @@ list:
       talk is a journey into the world of Node.js performance, taking a look at the available tools and optimization techniques inspired by insight
       gained from glimpsing under the hood of Node and V8.
   -
+    slot: "4"
     speaker_id:
       - nir-noy
     tags:
       - ES modules
     title: >
-      ES Modules: The next revolution?
+      ES Modules: The next revolution? (60')
     extract: >
       Modules are an essential part of any non-trivial JavaScript application which requires more than a single code file. And while modules have
       been a standard part of JavaScript Since ES2015, it has taken browsers a while to support them. During this time, developers have turned to
@@ -225,6 +312,7 @@ list:
       and network protocols, can revolutionize the way in which we package and deploy web applications. I will explain in detail, the benefits and
       limitations of browser support for ES2015 modules, and highlight their advantages over existing JavaScript packaging solutions.
   -
+    slot: "12"
     speaker_id:
       - vitalii-bobrov
     tags:
@@ -239,6 +327,7 @@ list:
       Is it secure enough? Should users use it carefully? All those questions are very actual in times when almost all vendors have implemented
       or put in development Service Workers support.
   -
+    slot: "25"
     speaker_id:
       - william-durand
     tags:
@@ -252,6 +341,7 @@ list:
       with React, Vue and some other frameworks (like Next or Nuxt). The last part will be dedicated to what I've learned building the new Mozilla
       Add-ons frontend.
   -
+    slot: "9"
     speaker_id:
       - luigi-derosa
     tags:
@@ -264,6 +354,7 @@ list:
       In this talk I'm going to show my journey with WebGL, I'll talk about common pitfalls, performance tricks and how to debug it.
       Everything using real world examples and production code.
   -
+    slot: "18"
     speaker_id:
       - jonni-nakari
     tags:
@@ -279,6 +370,7 @@ list:
       presentation I will give an intro about web payment APIs, why they are needed, comparison with autofill APIs, and how to implement them with
       sample code. I will also cover some important use cases, and current limitations.
   -
+    slot: "18"
     speaker_id:
       - liran-tal
     tags:

@@ -1,5 +1,5 @@
 {% for talk in site.data.talks.list %}
-  {% if talk.title == include.title %}
+  {% if talk.slot == include.slot %}
     {% assign title = talk.title %}
     {% assign speaker_id = talk.speaker_id %}
     {% break %}
