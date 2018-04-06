@@ -383,7 +383,7 @@ list:
       presentation I will give an intro about web payment APIs, why they are needed, comparison with autofill APIs, and how to implement them with
       sample code. I will also cover some important use cases, and current limitations.
   -
-    slot: "18"
+    slot: "15"
     speaker_id:
       - liran-tal
     tags:
