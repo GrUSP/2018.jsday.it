@@ -248,7 +248,7 @@ list:
       - serverless
       - cloud computing
     title: >
-      The future will be Serverless (30')
+      The future will be Serverless
     extract: >
       Software development is on the verge of a new revolution that will change the rules of the Cloud Computing game... again! The new wind
       of change is called "Serverless" and you should definitely get ready for it! In this talk I will illustrate why I believe Serverless
@@ -322,7 +322,7 @@ list:
     tags:
       - ES modules
     title: >
-      ES Modules: The next revolution? (60')
+      ES Modules: The next revolution?
     extract: >
       Modules are an essential part of any non-trivial JavaScript application which requires more than a single code file. And while modules have
       been a standard part of JavaScript Since ES2015, it has taken browsers a while to support them. During this time, developers have turned to
