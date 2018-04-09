@@ -187,7 +187,7 @@ list:
   -
     id: mate-nadasdi
     description: "Ivan is the senior software engineer currently working at Welltok. He had been working for more than 8 years for many international companies, like Cloud Horizon, Pathable, Clevertech, Thinkful etc. His focus is on building scalable JS applications and experimenting with new languages and frameworks. He is into functional and reactive programming. Leading teams and mentoring junior developers is his everyday duty. He loves to share knowledge and to write on his tech blog."
-    image: mate-nadasdi.jpg
+    image: mate-nadasdi.png
     first_name: Máté
     last_name: Nádasdi
     twitter: matenadasdi
