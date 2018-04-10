@@ -1,5 +1,8 @@
 main:
   list:
+    -
+      url: https://www.accenture.com/it-it/
+      image: accenture.svg
 
 diamond:
   list:
@@ -18,6 +21,9 @@ platinum:
 
 gold:
   list:
+    -
+      url: https://caffeina.com/
+      image: caffeina.svg
     -
       url: http://www.docsity.com/it/
       image: docsity.svg
