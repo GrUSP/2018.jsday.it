@@ -18,6 +18,22 @@ list:
     extract: >
       LIFERAY
   -
+    slot: "7"
+    speaker_id:
+      -
+    tags:
+    title: TBA
+    extract: >
+      backend, 30'
+  -
+    slot: "23"
+    speaker_id:
+      -
+    tags:
+    title: TBA
+    extract: >
+      sponsor (after lunch, May 10), backend, 30'
+  -
     slot: "16"
     speaker_id:
       - ivan-jovanovic
@@ -29,14 +45,6 @@ list:
       Docker, Kubernetes, event bus, microservices, API gateway... So many unknown words and more important, unknown architecture.
       I’ve written a lot of microservices and found some best practices to develop scalable and maintainable apps. This is the
       definitive guide for building the Node microservices.
-  -
-    slot: "23"
-    speaker_id:
-      -
-    tags:
-    title: TBA
-    extract: >
-      sponsor (after lunch, May 10), backend, 30'
   -
     slot: "24"
     speaker_id:

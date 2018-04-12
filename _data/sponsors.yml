@@ -6,6 +6,9 @@ main:
 
 diamond:
   list:
+    -
+      url: http://www.liferay.com
+      image: liferay.svg
 
 platinum:
   list:
