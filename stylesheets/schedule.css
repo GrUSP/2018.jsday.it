@@ -33,6 +33,14 @@
   margin-bottom: 0.25rem;
 }
 
+.schedule__talk-continue {
+  color: #333;
+  margin-bottom: 0.25rem;
+  font-size: 90%;
+  font-style: italic;
+  font-variant: small-caps;
+}
+
 .schedule__talk-author {
   color: #652D90;
 }

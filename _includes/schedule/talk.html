@@ -10,40 +10,48 @@
 <tr class="schedule__row">
 {% endif %}
   {% if include.time %}
-  <td>{{ include.time }}</td>
+  <td style="width:15%">{{ include.time }}</td>
   {% endif %}
 
-  <td {% if include.fill %} colspan="3" {% endif %}>
-    <div class="schedule__talk-title {% if include.fill %}centered{% endif %}">
-      {{ title }}
-    </div>
-    <div class="schedule__talk-author {% if include.fill %}centered{% endif %}">
-      {% if include.keynote %}
-      Keynote by
-      {% endif %}
+  {% if include.continues %}
+    <td>
+      <div class="schedule__talk-continue">
+        <i>{{ include.text }}</i>
+      </div>
+    </td>
+  {% else %}
+    <td {% if include.fill %} colspan="3" {% endif %}>
+      <div class="schedule__talk-title {% if include.fill %}centered{% endif %}">
+        {{ title }}
+      </div>
+      <div class="schedule__talk-author {% if include.fill %}centered{% endif %}">
+        {% if include.keynote %}
+        Keynote by
+        {% endif %}
 
-      {% if include.workshop %}
-      Workshop by
-      {% endif %}
+        {% if include.workshop %}
+        Workshop by
+        {% endif %}
 
-      {% if speaker_id.first %}
-        {% for current_speaker_id in speaker_id %}
+        {% if speaker_id.first %}
+          {% for current_speaker_id in speaker_id %}
+            {% for speaker in site.data.speakers.list %}
+              {% if speaker.id == current_speaker_id %}
+                {{ speaker.first_name }} {{ speaker.last_name }}
+              {% endif %}
+            {% endfor %}
+          {% endfor %}
+        {% else %}
           {% for speaker in site.data.speakers.list %}
-            {% if speaker.id == current_speaker_id %}
+            {% if speaker.id == speaker_id %}
               {{ speaker.first_name }} {{ speaker.last_name }}
+              {% break %}
             {% endif %}
           {% endfor %}
-        {% endfor %}
-      {% else %}
-        {% for speaker in site.data.speakers.list %}
-          {% if speaker.id == speaker_id %}
-            {{ speaker.first_name }} {{ speaker.last_name }}
-            {% break %}
-          {% endif %}
-        {% endfor %}
-      {% endif %}
-    </div>
-  </td>
+        {% endif %}
+      </div>
+    </td>
+  {% endif %}
 {% if include.fill %}
 </tr>
 {% endif %}

@@ -15,12 +15,12 @@ css: schedule
       {% include schedule/event.html time='08:30 - 09:30' title='Check in' fill='true' %}
       {% include schedule/event.html time='09:30 - 09:45' title='INTRO by GrUSP' fill='true' %}
 
-      {% include schedule/talk.html time='9.45-10.45' slot="1" keynote='true' fill='true' %}
+      {% include schedule/talk.html time='09:45 - 10:45' slot="1" keynote='true' fill='true' %}
 
       {% include schedule/event.html time='10:45 - 11:00' title='SHORT COFFEE BREAK' fill='true' %}
 
       <tr class="schedule__row">
-        {% include schedule/talk.html time='11:00 - 12:00' slot="2" %}
+        {% include schedule/talk.html time='11:00 - 11:30' slot="2" %}
         {% include schedule/talk.html slot="3" %}
         <td style="width:20%">
           <div class="schedule__talk-title">
@@ -29,9 +29,19 @@ css: schedule
         </td>
       </tr>
 
-      <tr class="schedule__row ">
-        {% include schedule/talk.html time='12:00 - 13:00' slot="4" %}
+      <tr class="schedule__row">
+        {% include schedule/talk.html time='11:30 - 12:00' slot="4" %}
         {% include schedule/talk.html slot="5" %}
+        <td style="width:20%">
+          <div class="schedule__talk-title">
+            Unconf
+          </div>
+        </td>
+      </tr>
+
+      <tr class="schedule__row ">
+        {% include schedule/talk.html time='12:00 - 13:00' slot="12" %}
+        {% include schedule/talk.html slot="13" %}
         <td>
           <div class="schedule__talk-title">
             Unconf
@@ -64,18 +74,8 @@ css: schedule
       {% include schedule/event.html time='16:00 - 16:30' title='COFFEE BREAK' fill='true' %}
 
       <tr class="schedule__row">
-        {% include schedule/talk.html time='16:30 - 17:00' slot="10" %}
+        {% include schedule/talk.html time='16:30 - 17:30' slot="10" %}
         {% include schedule/talk.html slot="11" %}
-        <td>
-          <div class="schedule__talk-title">
-            Unconf
-          </div>
-        </td>
-      </tr>
-
-      <tr class="schedule__row">
-        {% include schedule/talk.html time='17:00 - 17:30' slot="12" %}
-        {% include schedule/talk.html slot="13" %}
         <td>
           <div class="schedule__talk-title">
             Unconf
@@ -100,7 +100,7 @@ css: schedule
       {% include schedule/event.html time='08:30 - 09:30' title='Check in' fill='true' %}
       {% include schedule/event.html time='09:30 - 09:45' title='INTRO by GrUSP' fill='true' %}
 
-      {% include schedule/talk.html time='9.45-10.45' slot="14" keynote='true' fill='true' %}
+      {% include schedule/talk.html time='09:45 - 10:45' slot="14" keynote='true' fill='true' %}
 
       {% include schedule/event.html time='10:45 - 11:00' title='SHORT COFFEE BREAK' fill='true' %}
 
@@ -137,7 +137,7 @@ css: schedule
         {% include schedule/talk.html slot="23" %}
         <td>
           <div class="schedule__talk-title">
-            Workshop continues
+
           </div>
         </td>
       </tr>
@@ -146,7 +146,7 @@ css: schedule
         {% include schedule/talk.html slot="25" %}
         <td>
           <div class="schedule__talk-title">
-            Workshop continues
+
           </div>
         </td>
       </tr>

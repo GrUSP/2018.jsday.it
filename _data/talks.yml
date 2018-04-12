@@ -10,21 +10,13 @@
 
 list:
   -
-    slot: "7"
+    slot: "5"
     speaker_id:
       -
     tags:
     title: TBA
     extract: >
-      sponsor (after lunch, May 9), backend, 30'
-  -
-    slot: "12"
-    speaker_id:
-      -
-    tags:
-    title: TBA
-    extract: >
-      frontend, 30'
+      LIFERAY
   -
     slot: "16"
     speaker_id:
@@ -92,7 +84,7 @@ list:
       3 real-world applications which you can start using today. From gigabytes to kilobytes, from minutes to seconds: a journey into ingenious
       algorithms that changed computing forever.
   -
-    slot: "10"
+    slot: "4"
     speaker_id:
       - guido-dorsi
     tags:
@@ -167,7 +159,7 @@ list:
       This talk aims to show people an entry point into writing and using AI/ML in the browser using some newer technologies, and how
       these powerful tools can be harness to help with development, accessibility, personalization, and interactivity on the web.
   -
-    slot: "3"
+    slot: "19"
     speaker_id:
       - nara-kasbergen
     tags:
@@ -222,7 +214,7 @@ list:
       see how we applied the StranglerApplication pattern to make an AngularJS 1.2 Application in a shiny new codebase that our team really
       love.
   -
-    slot: "19"
+    slot: "11"
     speaker_id:
       - irina-shestak
     tags:
@@ -241,7 +233,7 @@ list:
       decryption? How does the concept of session come in to play? How does node handle memory usage when it comes to HTTP2? And what are these
       frame things everyone keeps talking about? This and more explained in HTTP2, one frame at a time. Coming to theatre near you from Spring 2018.
   -
-    slot: "5"
+    slot: "13"
     speaker_id:
       - luciano-mammino
     tags:
@@ -279,7 +271,7 @@ list:
       codebase. Our efforts led us most of the way to launching in Arabic and Hebrew while requiring little effort from our product engineers and
       with minimal disruption to their work.
   -
-    slot: "11"
+    slot: "3"
     speaker_id:
       - matteo-collina
     tags:
@@ -316,7 +308,7 @@ list:
       Requirements: Participation requires a recent version of either Linux, Windows or macOs. You will need root/admin access, and the ability to
       build native node modules (XCode and command line tools on Mac OS X, Visual Studio on Windows).
   -
-    slot: "4"
+    slot: "12"
     speaker_id:
       - nir-noy
     tags:
@@ -332,7 +324,7 @@ list:
       and network protocols, can revolutionize the way in which we package and deploy web applications. I will explain in detail, the benefits and
       limitations of browser support for ES2015 modules, and highlight their advantages over existing JavaScript packaging solutions.
   -
-    slot: "13"
+    slot: "9"
     speaker_id:
       - vitalii-bobrov
     tags:
@@ -375,7 +367,7 @@ list:
       with React, Vue and some other frameworks (like Next or Nuxt). The last part will be dedicated to what I've learned building the new Mozilla
       Add-ons frontend.
   -
-    slot: "9"
+    slot: "10"
     speaker_id:
       - luigi-derosa
     tags:
