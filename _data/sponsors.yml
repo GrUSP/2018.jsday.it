@@ -53,3 +53,6 @@ silver:
       image: subito.svg
 bronze:
   list:
+    -
+      url: https://goseetalents.com/
+      image: goseetalents.png
