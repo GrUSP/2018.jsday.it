@@ -28,11 +28,21 @@ list:
   -
     slot: "23"
     speaker_id:
-      -
+      - fredrik-rubensson
     tags:
-    title: TBA
+      - ipfs
+      - distributed web
+      - decentralization
+    title: IPFS and how to distribute the web
     extract: >
-      sponsor (after lunch, May 10), backend, 30'
+      This is your introduction to the distributed web in the incarnation of IPFS. A really cool platform that retains the
+      original vision of the web and makes it truly distributed. Firstly we will go through a couple of problem areas with
+      the current internet infrastructure and how IPFS fits into this vision. We will then move on to how IPFS actually
+      works and show some examples with JavaScript. We will look at - how the files are fingerprinted, versioned and
+      identified - how the network of IPFS nodes finds the relevant data for us - decentralized and human friendly addressing
+      with IPNS - deploying a web site with IPFS Lastly we will look at some typical use cases for IPFS. We will note how
+      it fits rather nicely as a storage option for blockchain applications. Fredrik Rubensson is a mentor and senior
+      consultant at Go See Talents - providing key expertise to the startup scene of Stockholm.
   -
     slot: "16"
     speaker_id:
@@ -163,7 +173,7 @@ list:
     title: Artificial Intelligence and Machine Learning in the browser
     extract: >
       The Artificial Intelligence and Machine Learning fields are incredibly vast, but only going to grow bigger. Right now, the
-      majority of individuals in the field are not Javascript developers, but rather Python and other high-level programming languages.
+      majority of individuals in the field are not JavaScript developers, but rather Python and other high-level programming languages.
       This talk aims to show people an entry point into writing and using AI/ML in the browser using some newer technologies, and how
       these powerful tools can be harness to help with development, accessibility, personalization, and interactivity on the web.
   -

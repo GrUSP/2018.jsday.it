@@ -57,6 +57,14 @@ list:
     twitter: xiehan
     company: National Public Radio
   -
+    id: fredrik-rubensson
+    description: "Fredrik Rubensson is a mentor and senior consultant at Go See Talents - providing key expertise to the startup scene of Stockholm."
+    image: fredrik-rubensson.png
+    first_name: Fredrik
+    last_name: Rubensson
+    twitter: froderik
+    company: Go See Talents
+  -
     id: luciano-mammino
     description: "I am a software engineer born in 1987, the same year that 'Super Mario Bros' was released in Europe, which, by chance is my favourite game! I started coding early at the age of 12, hacking away with my father's old i386 armed only with MS-DOS and the QBasic interpreter and I have been professionally a software developer for more than 10 years. I am currently a Solution Architect at Vectra AI in Dublin where I am working on automating the hunt for cyberattackers and speeding-up incident response. I love the fullstack web, Node.js and Serveless so I co-authored the book 'Node.js design patterns', launched fstack.link (a semi-automated newsletter for Fullstack developers) and Serverlesslab.com (in-house serverless training)."
     image: luciano-mammino.jpg
