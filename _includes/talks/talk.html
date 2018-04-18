@@ -5,6 +5,7 @@
             {% if speaker.id == talk.speaker_id.first %}
                 {% assign bio = speaker.description %}
                 <a name="{{ speaker.id }}"></a>
+                <a name="slot{{ talk.slot }}"></a>
                 <a class="talk__speaker" href="https://twitter.com/{{ speaker.twitter}}"
                    title="{{ speaker.first_name }} {{ speaker.last_name }}">
                     <div class="talk__picture" style="background-image: url('images/speakers/{{ speaker.image }}')"></div>

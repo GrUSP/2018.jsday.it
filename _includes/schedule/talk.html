@@ -2,6 +2,7 @@
   {% if talk.slot == include.slot %}
     {% assign title = talk.title %}
     {% assign speaker_id = talk.speaker_id %}
+    {% assign talk_slot = talk.slot %}
     {% break %}
   {% endif %}
 {% endfor %}
@@ -22,7 +23,9 @@
   {% else %}
     <td {% if include.fill %} colspan="3" {% endif %}>
       <div class="schedule__talk-title {% if include.fill %}centered{% endif %}">
-        {{ title }}
+        <a class="schedule__talk-title" href="talks.html#slot{{ talk_slot }}">
+          {{ title }}
+        </a>
       </div>
       <div class="schedule__talk-author {% if include.fill %}centered{% endif %}">
         {% if include.keynote %}
@@ -37,7 +40,7 @@
           {% for current_speaker_id in speaker_id %}
             {% for speaker in site.data.speakers.list %}
               {% if speaker.id == current_speaker_id %}
-                {{ speaker.first_name }} {{ speaker.last_name }}
+                <a class="schedule__talk-author" href="talks.html#{{ speaker_id }}">{{ speaker.first_name }} {{ speaker.last_name }}</a>
               {% endif %}
             {% endfor %}
           {% endfor %}
