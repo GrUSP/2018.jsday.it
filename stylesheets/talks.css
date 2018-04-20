@@ -11,6 +11,16 @@
   }
 }
 
+.talk__speaker_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.talk__speaker_item {
+  display: flex;
+  margin-bottom: 1.15em;
+}
+
 .talk__speaker {
   margin-right: 1.5rem;
   min-width: 8em;
@@ -124,4 +134,5 @@
 
 .talk__bio {
   line-height: 1.4;
+  margin-bottom: 1.25rem;
 }

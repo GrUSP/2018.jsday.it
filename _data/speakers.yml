@@ -25,6 +25,14 @@ list:
     twitter: AuroreMa27
     company: BAM
   -
+    id: chema-balsas
+    description: "Frontend Engineer at Liferay by Day, Cat Lover at home by night, Chema is hard at work trying to bring balance to the fight between the quick pace of modern JavaScript and the robustness of enterprise software."
+    image: chema-balsas.jpg
+    first_name: Chema
+    last_name: Balsas
+    twitter: jbalsas
+    company: Liferay
+  -
     id: brian-holt
     description: "Brian is currently working as a senior cloud developer advocate at Microsoft and he's all about developers, developers, developers. Previously he was a JavaScript engineer at Netflix, LinkedIn and Reddit. When not working, Brian finds time to teach on Frontend Masters, run his mouth on Front End Happy Hour, travel all over the world, and play with his adorable dog. Brian is currently a resident of Seattle, WA."
     image: brian-holt.jpg
@@ -87,6 +95,14 @@ list:
     first_name: Matteo
     last_name: Collina
     twitter: matteocollina
+    company: nearForm
+  -
+    id: luca-maraschi
+    description: "Luca is Principal Architect and Mad Scientist at nearForm. His expertise varies from designing enterprise architecture to designing programming languages, bringing innovation with a touch of craziness. Active sustainer of open-source and bleeding edge technologies, he was attracted by node.js from 0.2.0. He is an active Node.js collaborator and contributor while he enjoys his free time playing golf, kite-surfing and snowboarding."
+    image: luca-maraschi.jpg
+    first_name: Luca
+    last_name: Maraschi
+    twitter: lucamaraschi
     company: nearForm
   -
     id: maja-wichrowska

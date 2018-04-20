@@ -10,15 +10,19 @@
 
 list:
   -
-    slot: "5"
+    slot: "2"
     speaker_id:
-      -
+      - chema-balsas
     tags:
-    title: TBA
+    title: Creating an Enterprise Frontend Library in 2018
     extract: >
-      LIFERAY
+      React? Angular? Vue? It seems like today there's a new frontend library every single week. But how can the enterprise
+      world keep up with that reality? How can we build frontend libraries that are up to date with the latest technologies
+      while still making sure they are durable and ready for the enterprise world? In this talk, we'll present Clay, the
+      component library we built to implement the Lexicon Experience Language. We will share all the best practices from
+      years building frontend libraries and show the result of using new technologies such as Web Components today.
   -
-    slot: "7"
+    slot: "5"
     speaker_id:
       -
     tags:
@@ -217,7 +221,7 @@ list:
       to make examples this apply to any application that uses these two phenomenal tools. You’ll be surprised at what you can do just
       turning a few knobs.
   -
-    slot: "2"
+    slot: "15"
     speaker_id:
       - francesco-strazzullo
     tags:
@@ -309,6 +313,7 @@ list:
     slot: "17"
     speaker_id:
       - matteo-collina
+      - luca-maraschi
     tags:
       - workshop
       - performances
@@ -414,7 +419,7 @@ list:
       presentation I will give an intro about web payment APIs, why they are needed, comparison with autofill APIs, and how to implement them with
       sample code. I will also cover some important use cases, and current limitations.
   -
-    slot: "15"
+    slot: "7"
     speaker_id:
       - liran-tal
     tags:

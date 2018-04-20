@@ -52,19 +52,7 @@ css: schedule
       </tr>
 
       <tr class="schedule__row">
-        {% include schedule/talk.html time='15:00 - 16:00' slot="8" %}
-        {% include schedule/talk.html slot="9" %}
-        <td>
-          <div class="schedule__talk-title">
-            Unconf
-          </div>
-        </td>
-      </tr>
-
-      {% include schedule/event.html time='16:00 - 16:30' title='COFFEE BREAK' fill='true' %}
-
-      <tr class="schedule__row">
-        {% include schedule/talk.html time='16:30 - 17:00' slot="2" %}
+        {% include schedule/talk.html time='15:00 - 15:30' slot="2" %}
         {% include schedule/talk.html slot="3" %}
         <td style="width:20%">
           <div class="schedule__talk-title">
@@ -74,9 +62,21 @@ css: schedule
       </tr>
 
       <tr class="schedule__row">
-        {% include schedule/talk.html time='17:00 - 17:30' slot="4" %}
+        {% include schedule/talk.html time='15:30 - 16:00' slot="4" %}
         {% include schedule/talk.html slot="5" %}
         <td style="width:20%">
+          <div class="schedule__talk-title">
+            Unconf
+          </div>
+        </td>
+      </tr>
+
+      {% include schedule/event.html time='16:00 - 16:30' title='COFFEE BREAK' fill='true' %}
+
+      <tr class="schedule__row">
+        {% include schedule/talk.html time='16:30 - 17:30' slot="8" %}
+        {% include schedule/talk.html slot="9" %}
+        <td>
           <div class="schedule__talk-title">
             Unconf
           </div>
