@@ -40,7 +40,7 @@
           {% for current_speaker_id in speaker_id %}
             {% for speaker in site.data.speakers.list %}
               {% if speaker.id == current_speaker_id %}
-                <a class="schedule__talk-author" href="talks.html#{{ speaker_id }}">{{ speaker.first_name }} {{ speaker.last_name }}</a>
+                <a class="schedule__talk-author" href="talks.html#{{ current_speaker_id }}">{{ speaker.first_name }} {{ speaker.last_name }}</a>
               {% endif %}
             {% endfor %}
           {% endfor %}
