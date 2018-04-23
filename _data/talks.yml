@@ -45,8 +45,7 @@ list:
       works and show some examples with JavaScript. We will look at - how the files are fingerprinted, versioned and
       identified - how the network of IPFS nodes finds the relevant data for us - decentralized and human friendly addressing
       with IPNS - deploying a web site with IPFS Lastly we will look at some typical use cases for IPFS. We will note how
-      it fits rather nicely as a storage option for blockchain applications. Fredrik Rubensson is a mentor and senior
-      consultant at Go See Talents - providing key expertise to the startup scene of Stockholm.
+      it fits rather nicely as a storage option for blockchain applications.
   -
     slot: "16"
     speaker_id:
