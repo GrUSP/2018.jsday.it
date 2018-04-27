@@ -19,6 +19,9 @@ platinum:
       url: https://www.siteground.it/?utm_source=jsday
       image: siteground.svg
     -
+      url: https://www.skill.it/?utm_source=jsday
+      image: skill.svg
+    -
       url: http://careers.workwave.com/?utm_source=jsday
       image: workwave.svg
 
