@@ -210,7 +210,7 @@ list:
     company: nearForm
   -
     id: mate-nadasdi
-    description: "Máté is the senior software engineer currently working at Welltok. He had been working for more than 8 years for many international companies, like Cloud Horizon, Pathable, Clevertech, Thinkful etc. His focus is on building scalable JS applications and experimenting with new languages and frameworks. He is into functional and reactive programming. Leading teams and mentoring junior developers is his everyday duty. He loves to share knowledge and to write on his tech blog."
+    description: "I'm a Frontend Tech Lead at IBM Cloud Video (called Ustream previously :) ). In my freetime I'm also a curator and organizer of JSConf Budapest. I've joined the fight of the web as a frontendeer eight years ago and I call myself a workaholic loving to advocate performance and scalability. Thanks to the characteristics of my daily job I love to experiment with HTML5 video playback related technologies, multi-threading and any kind of client side optimisation."
     image: mate-nadasdi.png
     first_name: Máté
     last_name: Nádasdi
