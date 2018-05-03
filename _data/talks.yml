@@ -30,6 +30,14 @@ list:
     extract: >
       backend, 30'
   -
+    slot: "21"
+    speaker_id:
+      -
+    tags:
+    title: TBA
+    extract: >
+      backend, 30'
+  -
     slot: "23"
     speaker_id:
       - fredrik-rubensson
@@ -91,19 +99,6 @@ list:
       enough and topics that we feel are kind of shameful. In this talk Sara will expose her personal mental health issues that she
       had for a long time so you don’t ever feel embarrassed again. She will go through what she learned in this horrible horrible
       journey of putting a fix flag on her brain in the hope that it helps as many people as possible.
-  -
-    slot: "21"
-    speaker_id:
-      - alessandro-nadalin
-    tags:
-      - data structures
-    title: Probabilistic data structures for fun and profit
-    extract: >
-      How does Reddit count unique views of a post? How does Chrome mark a website fraudulent? Will they loop through a huge list of rows and
-      extract the relevant ones? The answer is no: they employ probabilistic data structures to accomplish these tasks that would be impractical
-      with traditional programming methods and algorithms. In this session we will understand what probabilistic data structures are and look at
-      3 real-world applications which you can start using today. From gigabytes to kilobytes, from minutes to seconds: a journey into ingenious
-      algorithms that changed computing forever.
   -
     slot: "4"
     speaker_id:

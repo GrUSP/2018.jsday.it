@@ -9,14 +9,6 @@
 #    twitter:
 list:
   -
-    id: alessandro-nadalin
-    description: "Alessandro Nadalin is a seasoned technical leader, currently in Dubai working for Rocket Internet, who pays a lot of attention to enterprise patterns, methodologies and SOA. He has been involved in projects for the italian government, Samsung, Nissan, ENI and in the e-commerce scene in the Middle East. When he’s not working, you can find him speaking at some conference, riding his motorcycle, blogging or eating some indonesian food in the old side of Dubai."
-    image: alessandro-nadalin.jpeg
-    first_name: Alessandro
-    last_name: Nadalin
-    twitter: _odino_
-    company: Rocket Internet
-  -
     id: aurore-malherbes
     description: "Mobile Engineer at BAM, I've built React Native applications, for small startups as well as for big companies"
     image: aurore-malherbes.jpg
