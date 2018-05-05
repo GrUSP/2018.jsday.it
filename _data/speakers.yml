@@ -9,12 +9,12 @@
 #    twitter:
 list:
   -
-    id: aurore-malherbes
-    description: "Mobile Engineer at BAM, I've built React Native applications, for small startups as well as for big companies"
-    image: aurore-malherbes.jpg
-    first_name: Aurore
-    last_name: Malherbes
-    twitter: AuroreMa27
+    id: yann-leflour
+    description: "Deputy CTO at BAM and open source contributor, I have worked on dozens of mobile applications and backends for startups as well as big companies. As a mobile centric developer and JS lover I am always looking into new ways to leverage this language to find better solutions to user problems."
+    image: yann-leflour.jpg
+    first_name: Yann
+    last_name: Leflour
+    twitter: yleflour
     company: BAM
   -
     id: chema-balsas
@@ -24,6 +24,14 @@ list:
     last_name: Balsas
     twitter: jbalsas
     company: Liferay
+  -
+    id: irina-shestak
+    description: "tl;dr javascript, infrastructure. The not so short: Irina is a Berlin via London via Vancouver software developer who is, oh hey, hello, really into node.js. When she is not in front of a computer, she is exploring the outdoors, gushing over trains, and you will probably find her at your nearest ramen shop™ reading some Beatniks."
+    image: irina-shestak.jpg
+    first_name: Irina
+    last_name: Shestak
+    twitter: "_lrlna"
+    company: MongoDB
   -
     id: brian-holt
     description: "Brian is currently working as a senior cloud developer advocate at Microsoft and he's all about developers, developers, developers. Previously he was a JavaScript engineer at Netflix, LinkedIn and Reddit. When not working, Brian finds time to teach on Frontend Masters, run his mouth on Front End Happy Hour, travel all over the world, and play with his adorable dog. Brian is currently a resident of Seattle, WA."
@@ -40,14 +48,6 @@ list:
     last_name: Strazzullo
     twitter: TheStrazz86
     company: e-xtrategy
-  -
-    id: irina-shestak
-    description: "tl;dr javascript, infrastructure. The not so short: Irina is a Berlin via London via Vancouver software developer who is, oh hey, hello, really into node.js. When she is not in front of a computer, she is exploring the outdoors, gushing over trains, and you will probably find her at your nearest ramen shop™ reading some Beatniks."
-    image: irina-shestak.jpg
-    first_name: Irina
-    last_name: Shestak
-    twitter: "_lrlna"
-    company: MongoDB
   -
     id: nara-kasbergen
     description: "Nara Kasbergen is a senior full-stack developer in NPR (National Public Radio)’s Digital Media group, where she's worked on a variety of projects, most notably the third-party developer platform for NPR One. She recently joined the tech conference speaking circuit because of her interest in Developer Experience (DX), community-building, the intersection of humans and code, and her volunteer work for Open Sourcing Mental Illness, a non-profit organization raising awareness about mental health in the tech industry. Though she has no noticeable accent, she hails from The Netherlands and lived in Munich, Houston, Pittsburgh, Tokyo, and New York City prior to settling down in Washington, DC. In her spare time, she satisfies her foodie habits by trying out all of the best restaurants in the city, collects board games, and watches too much Netflix."
@@ -73,6 +73,14 @@ list:
     twitter: loige
     company: Vectra AI
   -
+    id: aurore-malherbes
+    description: "Mobile Engineer at BAM, I've built React Native applications, for small startups as well as for big companies"
+    image: aurore-malherbes.jpg
+    first_name: Aurore
+    last_name: Malherbes
+    twitter: AuroreMa27
+    company: BAM
+  -
     id: nir-noy
     description: "Nir Noy is a Full stack Consultant at Sela Group, with over a decade of professional experience in building Full Stack solutions. He has served as a Consultant, developer and Team Leader in companies of all shapes and sizes. In the course of his career he has built web applications using a wide array of client and server technologies, more recently focusing on Angular, React, NodeJS, ASP.NET MVC, ASP.NET Web API. Nir is also the lead of israel's FrontEnd.IL community and meetup group."
     image: nir-noy.jpg
@@ -97,14 +105,6 @@ list:
     twitter: lucamaraschi
     company: nearForm
   -
-    id: maja-wichrowska
-    description: "Maja is a frontend software engineer at Airbnb. Her focus is on shared UI systems and writing sustainable code, and she maintains Airbnb's react-dates library and contributes to many other open-source repos as well"
-    image: maja-wichrowska.jpg
-    first_name: Maja
-    last_name: Wichrowska
-    twitter: majapw
-    company: Airbnb
-  -
     id: vitalii-bobrov
     description: "Vitalii is a Front-end engineer from Ukraine with more than 5 years of experience in web development. He started his career with PHP &amp; Drupal CMF and later realized that JavaScript and front-end are the exiting most things technologies. Currently, Vitalii lives in Poland, in the old nice city called Wroclaw. In delays of work at office and open source projects maintenance, he loves to spend time with his wife and little daughter, play different musical instruments and driving."
     image: vitalii-bobrov.jpg
@@ -120,6 +120,14 @@ list:
     last_name: Durand
     twitter: couac
     company: TailorDev
+  -
+    id: maja-wichrowska
+    description: "Maja is a frontend software engineer at Airbnb. Her focus is on shared UI systems and writing sustainable code, and she maintains Airbnb's react-dates library and contributes to many other open-source repos as well"
+    image: maja-wichrowska.jpg
+    first_name: Maja
+    last_name: Wichrowska
+    twitter: majapw
+    company: Airbnb
   -
     id: luigi-derosa
     description:

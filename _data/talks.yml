@@ -14,6 +14,10 @@ list:
     speaker_id:
       - chema-balsas
     tags:
+      - enterprise
+      - component libraries
+      - clay
+      - lexicon
     title: Creating an Enterprise Frontend Library in 2018
     extract: >
       React? Angular? Vue? It seems like today there's a new frontend library every single week. But how can the enterprise
@@ -24,19 +28,15 @@ list:
   -
     slot: "5"
     speaker_id:
-      -
+      - yann-leflour
     tags:
-    title: TBA
+      - chatbots
+    title: "Chatbots in JS: Overview and implementation"
     extract: >
-      backend, 30'
-  -
-    slot: "21"
-    speaker_id:
-      -
-    tags:
-    title: TBA
-    extract: >
-      backend, 30'
+      As was the word "cloud" a few years ago, "chatbot" is becoming one of the most trending topic in the tech industry.
+      But even if most have heard of it, few really know what hides behind this term. My first goal through this talk will
+      be to demistify the world of chatbots. Then, I will guide you through the implementation of a chatbot by sharing the
+      mistakes and pitfalls we came across while creating our own.
   -
     slot: "23"
     speaker_id:
@@ -426,3 +426,19 @@ list:
       Test doubles? Assertions? Code coverage? Jest has it all! There are many testing frameworks and test utilities in the JavaScript ecosystem,
       but jest is the one which is quickly becoming a favorite for many developers. The talk will introduce jest as a testing framework, the reasons
       why developers love it, and explore its hidden features, testing patterns, and Jest's extensions ecosystem.
+  -
+    slot: "21"
+    speaker_id:
+      - liran-tal
+    tags:
+      - Node.js
+      - Application Security
+      - OWASP
+      - Hacking
+    title: >
+      Node.js Security: Breaking The Loop
+    extract: >
+      Node.js and JavaScript adoption is high and application security plays a big part in shipping your products in the midst
+      of cyber security threats. We will deep-dive into practical Node.js security measures which you can easily implement in
+      your current projects. Covering topics such as OWASP Top 10 vulnerabilities, Secure Code Guidelines, Leveraging recommended
+      npm libraries, Hardening ExpressJS, and Secure Dependencies Management with CI/CD integration.
