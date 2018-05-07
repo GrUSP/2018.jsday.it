@@ -238,7 +238,7 @@ list:
       - HTTP2
       - node.js
     title: >
-      HTTP2, one frame at a time.
+      HTTP2, one frame at a time
     extract: >
       Node Files. Take #1337. ~ * Action! * ~ INT. jsDay CONFERENCE VENUE The camera zooms in on an intense discussion between Scully and
       Mulder. Both are huddled around a terminal, both are uncertain about the next steps. Ghosts of old TCP connections wail in the background.
