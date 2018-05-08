@@ -17,10 +17,23 @@
   display: block;
 }
 
+.conference__subtitle_nocaps {
+  color: #652D90;
+  display: block;
+  text-transform: none;
+}
+
 .conference__info {
   font-size: 2rem;
 }
 
+/* Social night (yes/no pages) */
+
+.social-night-yes-no {
+  margin: 3rem 0 10rem 0;
+  font-family: "ProximaNovaCondensedExtrabold";
+  font-size: 3rem;
+}
 
 
 /* Speakers */
