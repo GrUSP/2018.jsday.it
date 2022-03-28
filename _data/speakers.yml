@@ -193,12 +193,12 @@ list:
     twitter: liran_tal
     company: eXelate
   -
-    id: paul-verbeek-mast
-    description: "Paul is a front-end person turned boy animator in The Netherlands. He is very active in the Dutch web development community; he’s part of the Fronteers Conference and runs the meetup group NLHTML5. He’s passionate about helping people getting into tech and making the web work for everyone. When he’s not working, you will find him either gaming or spending time with his girlfriend, their cat and two rabbits."
-    image: paul-verbeek-mast.jpg
-    first_name: Paul
-    last_name: Verbeek-Mast
-    twitter: paul_v_m
+    id: jayne-mast
+    description: "Jayne is an Engineering Manager based in The Netherlands, and organiser of QueerJS, Global Diversity CFP Day, and CSSClasses. She’s passionate about welcoming everyone into tech and making the web work for everyone. Nowadays, she gives talks about topics like ethics, diversity, and inclusivity, to help make everyone feel as welcome as she was 10 years ago."
+    image: jayne-mast.png
+    first_name: Jayne
+    last_name: Mast
+    twitter: jayne_mast
     company: Werkspot
   -
     id: ivan-jovanovic
